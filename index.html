@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	
+	
+	
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	<link rel='stylesheet' 		  href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	
+	
+	<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/unitegallery.js'></script>	
+	<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
+	
+	
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="htmleaf-container">
+		<div class="htmleaf-content bgcolor-13">
+		
+			<div id="gallery" style="display:none;">
+                <!--data-ttt="哈哈哈"-->
+				<img class="ss_img" alt="Preview Image 11"
+					 src="images/thumbs/thumb11.jpg"
+                     data-description="Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description"
+                     data-ttt="666"
+					 data-image="images/big/image11.jpg"
+					 >
+
+				<img class="ss_img" alt="Preview Image 12"
+					 src="images/thumbs/thumb12.jpg"
+					 data-image="images/big/image12.jpg"
+                     title="首汇焦点SOOVII Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description Preview Imag 11Description"
+                     data-ttt="666"
+					 data-description="Preview Image 12 Description">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+		    jQuery("#gallery").unitegallery();
+
+
+
+		    //for (var i = 0; i < $(".ss_img").length;i++){
+		    //    $(".ss_title").eq($(".ss_img").index(this)).html($(".ss_img").eq($(".ss_img").index(this)).attr("data-ttt"))
+		    //    console.log($(".ss_img").length);
+		    //    console.log($(".ss_title").html())
+		    //}
+
+
+
+		    //$(".ss_title").each(function () {
+		    //    $(".ss_title").eq($(".ss_img").index(this)).html($(".ss_img").eq($(".ss_img").index(this)).attr("data-ttt"))
+		    //    console.log($(".ss_img").length);
+
+		    //})
+		});
+		
+	</script>
+</body>
+</html>
